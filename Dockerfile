@@ -1,4 +1,4 @@
-FROM docker.io/openproject/community:13.0.0
+FROM docker.io/openproject/community:13.0
 
 COPY Gemfile.plugins /app/
 
