@@ -79,9 +79,9 @@ jobs:
           push: ${{ github.event_name != 'pull_request' }}
           tags: |
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:latest
-            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:13.1
+            ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:13.2
             ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:13
             ghcr.io/${{ env.IMAGE_NAME }}:latest
-            ghcr.io/${{ env.IMAGE_NAME }}:13.1
+            ghcr.io/${{ env.IMAGE_NAME }}:13.2
             ghcr.io/${{ env.IMAGE_NAME }}:13
           labels: ${{ steps.meta.outputs.labels }}   
